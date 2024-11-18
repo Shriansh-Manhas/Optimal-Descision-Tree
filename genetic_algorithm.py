@@ -119,7 +119,7 @@ class HiCutsTreeMerger:
         return best_tree
 
 # Example of usage with HiCuts algorithm:
-rules = load_rules_from_file("classbench/acl1_1k")  # Define the set of rules to be used in both trees
+rules = load_rules_from_file("classbench/fw2_1k")  # Define the set of rules to be used in both trees
 
 hicuts = HiCuts(rules)
 hypercuts = HyperCuts(rules)
